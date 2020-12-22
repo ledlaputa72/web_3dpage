@@ -68,7 +68,7 @@ for (let i = 0; i < indicator_li.length; i++) {
 /* ---------------------------------------------------------------------------------------- */
 
 //터치 swipe left
-hammer.on('swifeleft', function(e){ // --> (1)
+hammer.on('swipeleft', function(e){ // --> (1)
     //인디케이터(페이지) 이동 범위 내이면 
     if(indicator_num < indicator_length) {  // --> (2)
         page_vector = 1;  // --> (3)
@@ -79,7 +79,7 @@ hammer.on('swifeleft', function(e){ // --> (1)
 });
 
 //터치 swipe right
-hammer.on('swiferight', function(e){
+hammer.on('swiperight', function(e){
     //인디케이터(페이지) 이동 범위 내이면 
     if(indicator_num > 1) {
         page_vector = -1;        
