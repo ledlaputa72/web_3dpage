@@ -25,11 +25,11 @@ reset.addEventListener('click', function(){
 
 /* ------------------------------------------------- */
 hammer.on('panleft', function(){
-    angle += 10;
-	box.style.transform= 'rotate(' + angle + 'deg)';
+    angleX += 10;
+	box.style.transform= 'rotate(' + angleX + 'deg)';
 });
 
 hammer.on('panright', function(){
-    angle -= 10;
-	box.style.transform= 'rotate(' + angle + 'deg)';
+    angleX -= 10;
+	box.style.transform= 'rotate(' + angleX + 'deg)';
 });
