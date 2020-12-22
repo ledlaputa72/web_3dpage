@@ -4,7 +4,7 @@ const right = document.getElementById('right');
 const reset = document.getElementById('reset');
 let xDeg = 0;
 let angleX = 0;
-const hammer = new Hammer(box);
+var hammer = new Hammer(box);
 
 /* ------------------------------------------------ */
 
